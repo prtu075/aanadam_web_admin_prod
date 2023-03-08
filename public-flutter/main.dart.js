@@ -8455,7 +8455,8 @@ axE:function axE(a,b,c){this.a=a
 this.b=b
 this.c=c},
 cK(){return new A.a0M(A.dQ()+"/api/upload/uploadSingle",A.dQ()+"/api/admin/login",A.dQ()+"/api/admin/category/fetch",A.dQ()+"/api/admin/sku/fetch",A.dQ()+"/api/admin/product/add",A.dQ()+"/api/admin/sku/add",A.dQ()+"/api/admin/category/add",A.dQ()+"/api/admin/product/fetch",A.dQ()+"/api/admin/fetchUsers",A.dQ()+"/api/admin/registerUser",A.dQ()+"/api/admin/orders/fetchOrders",A.dQ()+"/api/admin/banners/fetch",A.dQ()+"/api/admin/product/fetchOfferProduct",A.dQ()+"/api/admin/banners/add")},
-dQ(){return"http://localhost:3039"},
+dQ(){var s="http://api.aanandamstores.com:3039"
+return s},
 a0M:function a0M(a,b,c,d,e,f,g,h,i,j,k,l,m,n){var _=this
 _.a=a
 _.b=b
@@ -43369,9 +43370,6 @@ A.is.prototype={
 bX(){var s=0,r=A.z(t.z),q=this,p,o,n
 var $async$bX=A.A(function(a,b){if(a===1)return A.w(b,r)
 while(true)switch(s){case 0:q.kf()
-p=q.cx
-p.e="admin@aanandam.com"
-p.f="12345"
 p=$.fa
 o=(p==null?$.fa=$.ng():p).kr(0,"[DEFAULT]")
 p=$.lv()
